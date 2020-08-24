@@ -1,0 +1,6 @@
+commands:
+  find_drinks:
+    description: Provide the name of the drink and get ingredients and instructions on how to make it.
+    parameters:
+      - name: drink_param
+        optional: false
