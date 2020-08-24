@@ -12,49 +12,49 @@ function getAllIngredients(allDrinkInfo) {
 	const collectIngredients = [];
 
 	if (allDrinkInfo.data.drinks[0].strIngredient1 != null)
-		collectIngredients.push(allDrinkInfo.data.drinks[0].strIngredient1);
+		collectIngredients.push(allDrinkInfo.data.drinks[0].strIngredient1 + ' ');
 
 	if (allDrinkInfo.data.drinks[0].strIngredient2 != null)
-		collectIngredients.push(allDrinkInfo.data.drinks[0].strIngredient2);
+		collectIngredients.push(allDrinkInfo.data.drinks[0].strIngredient2 + ' ');
 
 	if (allDrinkInfo.data.drinks[0].strIngredient3 != null)
-		collectIngredients.push(allDrinkInfo.data.drinks[0].strIngredient3);
+		collectIngredients.push(allDrinkInfo.data.drinks[0].strIngredient3 + ' ');
 
 	if (allDrinkInfo.data.drinks[0].strIngredient4 != null)
-		collectIngredients.push(allDrinkInfo.data.drinks[0].strIngredient4);
+		collectIngredients.push(allDrinkInfo.data.drinks[0].strIngredient4 + ' ');
 
 	if (allDrinkInfo.data.drinks[0].strIngredient5 != null)
-		collectIngredients.push(allDrinkInfo.data.drinks[0].strIngredient5);
+		collectIngredients.push(allDrinkInfo.data.drinks[0].strIngredient5 + ' ');
 
 	if (allDrinkInfo.data.drinks[0].strIngredient6 != null)
-		collectIngredients.push(allDrinkInfo.data.drinks[0].strIngredient6);
+		collectIngredients.push(allDrinkInfo.data.drinks[0].strIngredient6 + ' ');
 
 	if (allDrinkInfo.data.drinks[0].strIngredient7 != null)
-		collectIngredients.push(allDrinkInfo.data.drinks[0].strIngredient7);
+		collectIngredients.push(allDrinkInfo.data.drinks[0].strIngredient7 + ' ');
 
 	if (allDrinkInfo.data.drinks[0].strIngredient8 != null)
-		collectIngredients.push(allDrinkInfo.data.drinks[0].strIngredient8);
+		collectIngredients.push(allDrinkInfo.data.drinks[0].strIngredient8 + ' ');
 
 	if (allDrinkInfo.data.drinks[0].strIngredient9 != null)
-		collectIngredients.push(allDrinkInfo.data.drinks[0].strIngredient9);
+		collectIngredients.push(allDrinkInfo.data.drinks[0].strIngredient9 + ' ');
 
 	if (allDrinkInfo.data.drinks[0].strIngredient10 != null)
-		collectIngredients.push(allDrinkInfo.data.drinks[0].strIngredient10);
+		collectIngredients.push(allDrinkInfo.data.drinks[0].strIngredient10 + ' ');
 
 	if (allDrinkInfo.data.drinks[0].strIngredient11 != null)
-		collectIngredients.push(allDrinkInfo.data.drinks[0].strIngredient11);
+		collectIngredients.push(allDrinkInfo.data.drinks[0].strIngredient11 + ' ');
 
 	if (allDrinkInfo.data.drinks[0].strIngredient12 != null)
-		collectIngredients.push(allDrinkInfo.data.drinks[0].strIngredient12);
+		collectIngredients.push(allDrinkInfo.data.drinks[0].strIngredient12 + ' ');
 
 	if (allDrinkInfo.data.drinks[0].strIngredient13 != null)
-		collectIngredients.push(allDrinkInfo.data.drinks[0].strIngredient13);
+		collectIngredients.push(allDrinkInfo.data.drinks[0].strIngredient13 + ' ');
 
 	if (allDrinkInfo.data.drinks[0].strIngredient14 != null)
-		collectIngredients.push(allDrinkInfo.data.drinks[0].strIngredient14);
+		collectIngredients.push(allDrinkInfo.data.drinks[0].strIngredient14 + ' ');
 
 	if (allDrinkInfo.data.drinks[0].strIngredient15 != null)
-		collectIngredients.push(allDrinkInfo.data.drinks[0].strIngredient15);
+		collectIngredients.push(allDrinkInfo.data.drinks[0].strIngredient15 + ' ');
 
 	return collectIngredients;
 }
